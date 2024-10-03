@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <ImageView
+        android:id="@+id/foysal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BCBCBC"
+        android:src="@drawable/phoapk" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="344dp"
+        android:layout_height="457dp"
+        android:layout_below="@+id/foysal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-705dp"
+        android:layout_marginBottom="30dp"
+        android:text="Name : Md. Nafis Foad Foysal
+        From : Fulbaria, Mymensingh, Dhaka
+        Mail id : SmictFoysal@gmail.com
+        Study In : Rajbari Gov College
+        Hobbies : Travelling,Internet, Coding and Design"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
